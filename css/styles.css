@@ -11407,6 +11407,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.block{
+  padding: 0em 0em 0em 5em;
+
+}
 section.resume-section {
   display: flex;
   align-items: center;
