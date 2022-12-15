@@ -7419,7 +7419,8 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 4.5rem; }
 
 .page-section-heading {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .pre {
   white-space: pre; }
