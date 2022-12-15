@@ -7178,6 +7178,12 @@ h3 {
     font-size: 2.25rem;
     line-height: 2rem; }
 
+    .page-section-two {
+      padding: .2rem 0; }
+      .page-section-two .page-section-two-heading {
+        font-size: 1.25rem;
+        line-height: .5rem; }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -7233,6 +7239,32 @@ h3 {
         background-color: #fff; }
       .divider-custom-two.divider-light .divider-custom-two-icon {
         color: #fff !important; }
+
+
+        .divider-custom-three {
+          margin: 1.25rem 0 1.5rem;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .divider-custom-three .divider-custom-line-three {
+          width: 100%;
+          max-width: 18rem;
+          height: 0.25rem;
+          background-color: #00a7ab;
+          border-radius: 1rem;
+          border-color: #00a7ab !important; }
+          .divider-custom-three .divider-custom-line-three:first-child {
+            margin-right: 1rem; }
+          .divider-custom-three .divider-custom-line-three:last-child {
+            margin-left: 1rem; }
+            .divider-custom-three .divider-custom-icon-three {
+              color:  #1f2d41 !important;
+              font-size: 2rem; }
+            .divider-custom-three.divider-light .divider-custom-line-three {
+              background-color: #fff; }
+            .divider-custom-three.divider-light .divider-custom-three-icon {
+              color: #fff !important; }
 
 .btn-xl {
   padding: 1rem 1.75rem;
