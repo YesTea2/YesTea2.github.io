@@ -7544,3 +7544,16 @@ form .row:first-child .floating-label-form-group {
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+
+  .static-gif {
+  position:absolute;
+  background: white;
+  max-width: 100%;
+  height: auto;
+}
+
+.static-gif:hover {
+  opacity:0;
+  max-width: 100%;
+  height: auto;
+}
