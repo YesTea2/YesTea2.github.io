@@ -84,7 +84,48 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+let slideIndexTwo = 0;
+showSlidesTwo();
+
+function showSlidesTwo() {
+let i;
+let slides = document.getElementsByClassName("mySlidesTwo");
+let dots = document.getElementsByClassName("dotTwo");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndexTwo++;
+if (slideIndexTwo > slides.length) {slideIndexTwo = 1}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndexTwo-1].style.display = "block";
+dots[slideIndexTwo-1].className += " active";
+setTimeout(showSlidesTwo, 4000); // Change image every 2 seconds
+}
+
+let slideIndexThree = 0;
+showSlidesThree();
+
+function showSlidesThree() {
+let i;
+let slides = document.getElementsByClassName("mySlidesThree");
+let dots = document.getElementsByClassName("dotThree");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndexThree++;
+if (slideIndexThree > slides.length) {slideIndexThree = 1}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndexThree-1].style.display = "block";
+dots[slideIndexThree-1].className += " active";
+setTimeout(showSlidesThree, 4000); // Change image every 2 seconds
+}
+
 
   })(jQuery); // End of use strict
