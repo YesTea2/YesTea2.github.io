@@ -1,266 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Lily Owen's Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Lily Owen</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/cat.png" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">LILY OWEN</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Games</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Lily
-                        <span class="text-primary">Owen</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                         Corvallis, OR ·
-                        <a href="mailto:yestea@sippingtea.net">yestea@sippingtea.net</a>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/crop.svg" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Hi! I’m Lily</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Game Designer - Programmer - Pixel Artist</p>
+            </div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Games</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/remain2.gif" alt="Remainder Matters"/>
+                        </div>
                     </div>
-                    <p class="lead mb-5">Welcome to my portfolio! I am a game developer specializing in Unity. From concept to deployment, I have the skills and experience to bring your game ideas to life. Whether you need a simple mobile game or a complex multiplayer experience, I am ready to work with you to make it a reality.</p>
-                    <div class="social-icons">
-                      <a class="social-icon" href="https://github.com/YesTea2"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://yestea.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
-                        <a class="social-icon" href="https://www.linkedin.com/in/lily-owen-2aa8b9237/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://twitter.com/NatureOfTea"><i class="fab fa-twitter"></i></a>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Circus Tent"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/game.png" alt="Controller"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Remainder Matters</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Slideshow container -->
+  <div class="slideshow-container">
 
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience
-             <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div>
-                </div>
-            </section>
-            /*
-            <hr class="m-0" />
-            -->
-            <!-- Projects -->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://yestea.itch.io/puzzlejump">  Puzzle Jump : A Platforming Adventure</a></h3>
-                            <div class="subheading mb-3">A 2D Build Your Own Platformer</div>
-                            <div>
-                              This project was an entry for the Thinky Games Game Jam.
-                            <br>
-                              It features two game modes: a platforming editor and a platforming mode.
-                            <br>
-                              In the editor, the player is given a set of platforms to use to build a level. The objective in platforming mode is to clear all objectives for each level.
-                            <br>
-                              The project focuses on easily scalable systems to enable fast expansion with additional platforms and levels.
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="assets/img/portfolio/r2.png" style="width:75%">
+      <div class="text">Remainder Matters</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="assets/img/portfolio/r3.png" style="width:75%">
+      <div class="text">Remainder Matters</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="assets/img/portfolio/r4.png" style="width:75%">
+      <div class="text">Remainder Matters</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="assets/img/portfolio/r5.png" style="width:75%">
+      <div class="text">Remainder Matters</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="assets/img/portfolio/r1.png" style="width:75%">
+      <div class="text">Remainder Matters</div>
+    </div>
+
+
+
+    <!-- Next and previous buttons -->
+
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+
+  </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                      In Remainder Matters, players navigate a series of obstacles to push numbered bricks into the correct position.
+                                       The goal of the game is to arrange the numbered bricks so that their values match the target number on the board.
+                                      This challenging and engaging game combines elements of math and logic to provide a unique and enjoyable experience.
+                                      <br><br><br>
+                                      During the development of this project, I sought to create a system for level creation that was flexible and efficient.
+                                      To achieve this, I used an array of transforms with a numbered grid on paper.
+                                      This allowed me to easily specify where specific tiles should be spawned by passing in the corresponding numbers through one of three functions.
+                                      By using this approach, I was able to avoid the need for separate scenes or prefabs in the inspector.
+                                      Instead, levels are generated dynamically by simply wiping the playing area and spawning new bricks as needed.
+                                      This approach allows for greater flexibility and easier level creation.
+</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
                             </div>
-
                         </div>
-                        <div class="flex-shrink-0">
-                          <video width="480" height="270" controls><source src="assets/vids/PuzzleJump.mp4" type="video/mp4">Your browser does not support the video tag.</video> </div>
                     </div>
-
-                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://yestea.itch.io/mtg-twitch-overlay"> MTG Interactive Twitch Overlay</a></h3>
-                            <div class="subheading mb-3">A Interactive Overlay for twitch streamers</div>
-                            <div>
-                            This is a transparent overlay adding interactivity to a streamers Twitch chat.
-                            <br>
-                             It features two channel point redemptions that use the SkryFall public API
-                            <br> One redemption displays a random Commander MTG card to the viewer, along with an audio clip.
-                            <br> The other allows the viewer to search for a magic card and display it to all current viewers and the streamer.
-                            <br> The application also includes a greeting message for each chatter and a chatbox that allows the streamer to see chat without a second monitor.
-                            </div>
-                        </div>
-
-
-
-                              <div class="flex-shrink-0">
-                          <video width="480" height="270" controls><source src="assets/vids/MTG.mp4" type="video/mp4">Your browser does not support the video tag.</video></div>
-                        
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://yestea.itch.io/remainder-matters"> Remainder Matters</a></h3>
-                            <div class="subheading mb-3">A Sokoban style game about math</div>
-                            <div>
-                              The goal of this project is for the player to push numbered bricks into the play area and match the number on the brick with the number on the side of the play area.
-                              <br> Each push the player gives to the brick reduces its number by one. Additionally, there are operand bricks that can perform arithmetic operations on the current brick when pushed next to it.
-                              <br> A major focus during development was creating a system that enables rapid level creation using code instead of manually configuring each level in the Unity inspector.
-                              <br> This project also features a save system and character selection.
-                            </div>
-                        </div>
-                        <div class="flex-shrink-0">
-                          <video width="480" height="270" controls><source src="assets/vids/Remainder.mp4" type="video/mp4">Your browser does not support the video tag.</video></div>
-                          </div>
-                    </div>
-
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            </div>
         </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="Circus Tent"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="Controller"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:yestea@sippingtea.net">yestea@sippingtea.net</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">LOCATION</h4>
+                        <p class="pre-wrap lead mb-0">Corvallis, OR </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/natureoftea"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/lily-owen-2aa8b9237/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4">ABOUT FREELANCER</h4>
+                        <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © Lily Owen 2022
+</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
