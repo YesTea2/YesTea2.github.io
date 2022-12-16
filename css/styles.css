@@ -7482,6 +7482,10 @@ form .row:first-child .floating-label-form-group {
   .mySlides {display: none;}
   .mySlidesTwo {display: none;}
   .mySlidesThree {display: none;}
+   .mySlidesThree {display: none;}
+.mySlidesArt {
+    display: none;
+}
   img {vertical-align: middle;}
 
   /* Slideshow container */
@@ -7502,6 +7506,12 @@ form .row:first-child .floating-label-form-group {
     position: relative;
     margin: auto;
   }
+
+.slideshow-containerArt {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
 
   /* Caption text */
   .text {
@@ -7557,6 +7567,16 @@ form .row:first-child .floating-label-form-group {
     transition: background-color 0.6s ease;
   }
 
+.dotArt {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
   .active {
     background-color: #717171;
   }
@@ -7589,3 +7609,8 @@ form .row:first-child .floating-label-form-group {
   max-width: 100%;
   height: auto;
 }
+.artShot {
+    max-width: 100%;
+    height: auto;
+}
+
