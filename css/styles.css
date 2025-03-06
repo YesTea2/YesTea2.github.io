@@ -509,8 +509,12 @@ pre {
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem; }
+  padding-right: inherit;
+  padding-left: inherit;
+  border-width: thin;
+  border-color: white;
+  border-style: solid;
+}
 
 .col {
   flex-basis: 0;
@@ -7199,7 +7203,7 @@ h3 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color:#1f2d41;
+    background-color:#fff;
     border-radius: 1rem;
     border-color: #00a7ab !important; }
     .divider-custom .divider-custom-line:first-child {
@@ -7207,7 +7211,7 @@ h3 {
     .divider-custom .divider-custom-line:last-child {
       margin-left: 1rem; }
   .divider-custom .divider-custom-icon {
-    color: #00a7ab !important;
+    color: #fff !important;
     font-size: 2rem; }
   .divider-custom.divider-light .divider-custom-line {
     background-color: #fff; }
