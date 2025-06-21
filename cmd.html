@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMD Runner Guide</title>
+  <link rel="stylesheet" href="cmdstyles.css" />
+</head>
+<body>
+  <header>
+    <img src="header.jpg" alt="Game logo" class="header-img" />
+    <h1>CMD Runner Guide</h1>
+  </header>
+
+  <main>
+    <section class="main-section">
+      <div class="text-container">
+        <h2 class ="center-label">Overview</h2>
+        <p class ="center-label">Give your bots commands to help navigate the grid, avoid obstacles, and match their colors with the exit gates to leave through the gates before using up all the steps. </p>
+        <p class ="center-label">Click on each bot to open their action stack, give them commands, then run the simulation. Don't worry if your robots die, you can always rewind your actions and try a new command stack</p>
+      </div>
+    </section>
+<section class="main-section">
+  <div class="text-container full-width">
+    <h1 class ="center-label">Bots</h1>
+
+    <div class="bot-section">
+      <div class="bot-text">
+        <h2>Basic Bot</h2>
+        <h3>Commands</h3>
+        <ul>
+          <li>Mov: Moves the bot in the given direction 1 space per amount and step</li>
+          <li>Wait: The bot sleeps for one step</li>
+        </ul>
+      </div>
+        <div class="bot-image">
+        <img src="basic-bot.jpg" alt="Basic Bot" />
+
+        </div>
+    </div>
+
+    <div class="bot-section">
+      <div class="bot-text">
+        <h2>Advanced Bot</h2>
+        <h3>Commands</h3>
+        <ul>
+          <li>Mov: Moves the bot in the given direction 1 space per amount and step</li>
+          <li>Wait: The bot sleeps for one step</li>
+          <li>Leap: Teleports the bot x spaces in the given direction</li>
+        </ul>
+      </div>
+        <div class="bot-image">
+        <img src="advanced-bot.jpg" alt="Advanced Bot" />
+
+        </div>
+    </div>
+
+    <div class="bot-section">
+      <div class="bot-text">
+        <h2>Color Bot</h2>
+        <h3>Commands</h3>
+        <ul>
+          <li>Use: Creates a color mist in the given direction, coloring any basic or advanced robot in that space to the color of the color bot</li>
+          <li>Wait: The bot sleeps for one step</li>
+          <li>Leap: Teleports the bot x spaces in the given direction</li>
+        </ul>
+      </div>
+        <div class="bot-image">
+        <img src="color-bot.jpg" alt="Color Bot" />
+
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="main-section">
+  <div class="text-container full-width">
+    <h1 class ="center-label"></h1>
+
+    <div class="bot-section">
+      <div class="bot-text">
+        <h2>Hazards</h2>
+        <p>Avoid hitting hazards or the bots will become shredded. Hazards move around the stage at each step, play through the steps, and rewind to see the movements of hazards in advance</p>
+        </div>
+        <div class="bot-image">
+        <img src="hazards.jpg" alt="Color Bot" />
+        </div>
+        </div>
+      <div class="bot-section">
+      <div class="bot-text">
+        <h2>Exit Gates</h2>
+        <p>Gates indicate what color bots need to be to pass through unharmed, and have a number indicating the number of bots needed to use each exit gate to pass the stage</p>
+        </div>
+        <div class="bot-image">
+        <img src="exit.jpg" alt="Color Bot" />
+        </div>
+        </div>
+
+      <div class="bot-section">
+      <div class="bot-text">
+        <h2>Shields</h2>
+        <p>When a bot has fewer commands than the current stage's steps, it will deploy a shield. While the shield is deployed bots can not be hurt by moving obstacles.</p>
+        </div>
+        <div class="bot-image">
+        <img src="shield.jpg" alt="Color Bot" />
+        </div>
+        </div>
+
+      <div class="bot-section">
+      <div class="bot-text">
+        <h2>Steps</h2>
+        <p>Run the simulation by using the buttons on the right corner of the screen. In order from left to right: Rewind - rewinds all steps, Step Back - Moves actions back one step, Step Forward - Moves actions forward one step, Play - Plays all steps</p>
+        </div>
+        <div class="bot-image">
+        <img src="steps.jpg" alt="Color Bot" />
+        </div>
+        </div>
+    
+
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+  </main>
+
+
+</body>
+</html>
